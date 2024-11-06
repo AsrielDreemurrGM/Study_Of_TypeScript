@@ -42,3 +42,11 @@ dadosDaApi = 10;
 dadosDaApi = true;
 dadosDaApi = ['teste1', 'teste2'];
 dadosDaApi = 'string';
+
+// Informação Extra - Exemplo de Tipagem Implícita
+// let curso = 'front-end';
+// curso = 10;
+// Isto não irá aceitar alteração, mesmo que não informamos o tipo da Variável
+// "curso", pois o TypeScript verifica sozinho que a Variável foi iniciada com 
+// uma String e supõe que ela sempre será isto, uma Variável de Valor = String;
+// Porém é recomendado informar o Tipo sempre que possível;
